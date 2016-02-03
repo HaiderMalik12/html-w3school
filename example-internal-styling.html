@@ -1,0 +1,94 @@
+<!--Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for visible element borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Internal Styling</title>
+</head>
+<body>
+<!--
+-Use to style for one html page
+-Internal can be defined inside the head section
+
+ -->
+
+<style>
+    body {
+        background-color: lightgray;
+    }
+
+    h1 {
+        color: blue;
+        font-family: Verdana;
+        font-size: medium;
+    }
+
+    p {
+        color: green;
+        font-size: 160%;
+        font-family: Arial;
+
+        /* apply css box model*/
+        border: 1px solid brown;
+
+        /*        apply css pading*/
+        padding: 10px;
+
+        /* !**! set marging*/
+        margin: 30px;
+    }
+
+    button {
+        background-color: transparent;
+        text-decoration-color: white
+    }
+
+    table {
+        background-color: inherit
+    }
+    h2{
+        color: aqua;
+    }
+    h3{
+        color:white;
+    }
+</style>
+</body>
+<h1> Never Loose Hope</h1>
+<h2>It is not over untill i win</h2>
+<p> You have to believe on yourself</p>
+<p>I would like to become successful in node js</p>
+<h3>Hello Gurl</h3>
+
+<p id="p01"> I am a Different</p>
+<button>Add</button>
+<button>Update</button>
+<button>Delete</button>
+<table>
+    <tr>
+        <td>
+            Party Id <input type="text">
+        </td>
+
+        <td>
+            Party Name <input type="text">
+        </td>
+
+        <td>
+            Credit <input type="text">
+        </td>
+
+    </tr>
+
+</table>
+</html>

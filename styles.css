@@ -1,0 +1,25 @@
+body{
+  background-color: lightgrey;
+}
+h1{
+    color:blue;
+}
+p{
+    color:green;
+}
+
+/*this is an id attributes
+ use id to address single element
+*/
+p#p01{
+    color:blue;
+}
+
+/*
+class Attribute
+use class to address group of elements
+*/
+
+p.error{
+    color: red;
+}
